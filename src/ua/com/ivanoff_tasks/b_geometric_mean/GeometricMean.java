@@ -3,7 +3,8 @@ package ua.com.ivanoff_tasks.b_geometric_mean;
 import java.util.Scanner;
 
 /**
- * The type Geometric mean.
+ * Реализовать алгоритм и программу, в которой вводится n чисел и определяется
+ * их среднее геометрическое – корень в n-й степени из их произведения.
  */
 public class GeometricMean {
 
