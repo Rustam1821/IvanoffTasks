@@ -1,4 +1,4 @@
-package ua.com.ivanoff_tasks.b_geometric_mean;
+package ua.com.java_learning_tasks.b_geometric_mean;
 
 import java.util.Scanner;
 
