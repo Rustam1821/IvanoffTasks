@@ -34,7 +34,7 @@ public class GeometricMeanOfTwoNumbers {
 
 
     /**
-     * Calculate Geometric Mean
+     * Calculate Geometric Mean.
      * @param twoNumbers
      * @return result
      */
