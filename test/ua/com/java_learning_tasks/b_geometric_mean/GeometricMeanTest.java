@@ -2,7 +2,6 @@ package ua.com.java_learning_tasks.b_geometric_mean;
 
 import org.junit.jupiter.api.Test;
 import org.testng.Assert;
-
 import static ua.com.java_learning_tasks.b_geometric_mean.GeometricMean.calculator;
 
 public class GeometricMeanTest {
