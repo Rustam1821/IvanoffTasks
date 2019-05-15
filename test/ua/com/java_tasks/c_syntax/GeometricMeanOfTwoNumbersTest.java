@@ -1,10 +1,9 @@
-package ua.com.java_tasks.c_syntax.two_numbers_geometric_mean;
+package ua.com.java_tasks.c_syntax;
 
 import org.junit.jupiter.api.Test;
 import org.testng.Assert;
 
-import static ua.com.java_tasks.c_syntax.two_numbers_geometric_mean
-        .GeometricMeanOfTwoNumbers.calculateGeometricMean;
+import static ua.com.java_tasks.c_syntax.GeometricMeanOfTwoNumbers.calculateGeometricMean;
 
 public class GeometricMeanOfTwoNumbersTest {
     @Test

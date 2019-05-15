@@ -1,4 +1,4 @@
-package ua.com.java_tasks.c_syntax.two_numbers_geometric_mean;
+package ua.com.java_tasks.c_syntax;
 
 import java.util.Scanner;
 

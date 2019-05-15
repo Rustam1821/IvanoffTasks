@@ -1,4 +1,4 @@
-package ua.com.java_tasks.c_syntax.rounding;
+package ua.com.java_tasks.c_syntax;
 
 import java.util.Scanner;
 
