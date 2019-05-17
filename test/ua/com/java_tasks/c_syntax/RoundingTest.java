@@ -2,7 +2,7 @@ package ua.com.java_tasks.c_syntax;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import ua.com.java_tasks.c_syntax.Rounding;
+
 
 @Test
 public class RoundingTest {
