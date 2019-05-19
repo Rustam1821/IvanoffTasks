@@ -1,13 +1,12 @@
-package ua.com.java_tasks.c_syntax;
+package ua.com.topic03_syntax;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static ua.com.java_tasks.c_syntax.Quadratic.printResult;
-import static ua.com.java_tasks.c_syntax.Quadratic.solution;
+import static ua.com.topic03_syntax.Task05Quadratic.*;
 
 @Test
-public class QuadraticTest {
+public class Task05QuadraticTest {
     public void Should_Find_Roots() {
         Assert.assertEquals(printResult(solution(5, 0, 0))
                 , "-0.0");
@@ -21,6 +20,5 @@ public class QuadraticTest {
                 , "5.0 -0.3333333333333333");
         Assert.assertEquals(printResult(solution(1, -10, 21))
                 , "7.0 3.0");
-
     }
 }

@@ -1,4 +1,4 @@
-package ua.com.java_tasks.c_syntax;
+package ua.com.topic03_syntax;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ import java.util.Scanner;
  * и определяется их среднее геометрическое – квадратный корень
  * из их произведения
  */
-public class GeometricMeanOfTwoNumbers {
+public class Task01GeometricMeanOfTwoNumbers {
     /**
      * The entry point of application.
      *

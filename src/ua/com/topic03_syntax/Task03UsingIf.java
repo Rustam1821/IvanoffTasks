@@ -1,14 +1,14 @@
-package ua.com.java_tasks.c_syntax;
+package ua.com.topic03_syntax;
 
 import java.util.Scanner;
 
- /**
+/**
  * Напишите программу, которая считывает x и вычисляет y, используя инструкцию if.
  * x < 0 -> y = -1
  * x = 0 -> y = 0
  * x > 0 -> y = 1
  */
-public class UsingIf {
+public class Task03UsingIf {
     /**
      * The entry point of application.
      *
@@ -20,12 +20,12 @@ public class UsingIf {
         System.out.println("'y' equals: " + y);
     }
 
-     /**
-      * Read x int.
-      *
-      * @return the int
-      */
-     public static int readX() {
+    /**
+     * Read x int.
+     *
+     * @return the int
+     */
+    public static int readX() {
         System.out.println("Enter 'x'");
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
@@ -43,8 +43,7 @@ public class UsingIf {
         int y = 0;
         if (x < 0) {
             y = -1;
-        }
-        if (x > 0) {
+        } else if (x > 0) {
             y = 1;
         }
         return y;

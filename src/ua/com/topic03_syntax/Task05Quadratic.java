@@ -1,16 +1,33 @@
-package ua.com.java_tasks.c_syntax;
+package ua.com.topic03_syntax;
 
-public class Quadratic {
+/**
+ * Разработайте программу, которая реализует алгоритм решения квадратного уравнения.
+ * Алгоритм должен учитывать все возможные данные
+ */
+public class Task05Quadratic {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         System.out.println(printResult(solution(5, 0, 0)));
         System.out.println(printResult(solution(4, 0, -3)));
         System.out.println(printResult(solution(4, 0, 36)));
         System.out.println(printResult(solution(4, -7, 0)));
         System.out.println(printResult(solution(3, -14, -5)));
-        System.out.println(printResult(solution(1, -10, 21)));
+        System.out.print(printResult(solution(1, -10, 21)));
     }
 
-    static double[] solution(double a, double b, double c) {
+    /**
+     * Solution double [ ].
+     *
+     * @param a the a
+     * @param b the b
+     * @param c the c
+     * @return the double [ ]
+     */
+    static double[] solution(final double a, final double b, final double c) {
         double determinant = Math.pow(b, 2) - 4 * a * c;
         double[] roots;
         if (determinant < 0) {
@@ -26,7 +43,13 @@ public class Quadratic {
         return roots;
     }
 
-    static String printResult(double[] roots) {
+    /**
+     * Print result string.
+     *
+     * @param roots the roots
+     * @return the string
+     */
+    static String printResult(final double[] roots) {
         String result;
         switch (roots.length) {
             case 0:
@@ -37,7 +60,6 @@ public class Quadratic {
                 break;
             default:
                 result = Double.toString(roots[0]) + " " + Double.toString(roots[1]);
-
         }
         return result;
     }

@@ -1,4 +1,4 @@
-package ua.com.java_tasks.b_geometric_mean;
+package ua.com.topic02_geometric_mean;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Реализовать алгоритм и программу, в которой вводится n чисел и определяется
  * их среднее геометрическое – корень в n-й степени из их произведения.
  */
-public class GeometricMean {
+public class Task01GeometricMean {
 
     /**
      * The entry point of application.

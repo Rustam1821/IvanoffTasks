@@ -1,17 +1,17 @@
-package ua.com.java_tasks.c_syntax;
+package ua.com.topic03_syntax;
 
 /**
  * Напишите программу, которая выполняет предыдущее задание.
  * с использованием условных операций.
  */
-public class UsingTernary {
+public class Task04UsingTernary {
     /**
      * The entry point of application.
      *
      * @param args the input arguments
      */
     public static void main(String[] args) {
-        int x = UsingIf.readX();
+        int x = Task03UsingIf.readX();
         int y = computeY(x);
         System.out.println("'y' equals: " + y);
     }

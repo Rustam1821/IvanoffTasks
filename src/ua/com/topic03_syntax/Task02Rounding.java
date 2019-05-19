@@ -1,4 +1,4 @@
-package ua.com.java_tasks.c_syntax;
+package ua.com.topic03_syntax;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Не использовать стандартную функцию округления.
  * Использовать приведение типов.
  */
-public class Rounding {
+public class Task02Rounding {
 
     public static void main(String[] args) {
         System.out.println("Enter a fractional number");
@@ -38,6 +38,6 @@ public class Rounding {
     }
 
     private static boolean isRoundUp(final double input) {
-        return input % 1 > 0.4;
+        return input % 1 >= 0.5;
     }
 }
