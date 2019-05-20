@@ -29,5 +29,4 @@ public class Task07SymbolsByCode {
         }
         return stringBuilder.toString();
     }
-
 }
