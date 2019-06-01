@@ -7,9 +7,9 @@ import java.io.InputStreamReader;
 /**
  * Напишите программу, в которой вводятся n и k.
  * И вычисляется следующая сумма (одно слагаемое пропущено):
- *
+ * <p>
  * y = 1 + 2 + 3 + ... + (k - 1) + (k + 1) + ... + n
- *
+ * <p>
  * Необходимо реализовать два варианта программы –
  * с использованием инструкции continue и без нее.
  */
@@ -54,7 +54,7 @@ public class Task09SkippedAddendSum {
      * @param n the n
      * @return the int
      */
-    static int calculateSumVer1(int k, int n) {
+    static int calculateSumVer1(final int k, final int n) {
         int sum = 0;
         for (int i = 1; i < n; i++) {
             if (i != k) {
@@ -71,13 +71,12 @@ public class Task09SkippedAddendSum {
      * @param n the n
      * @return the int
      */
-    static int calculateSumVer2(int k, int n) {
+    static int calculateSumVer2(final int k, final int n) {
         int sum = 0;
         for (int i = 1; i < n; i++) {
             if (i == k) {
                 continue;
-            }
-            else {
+            } else {
                 sum += i;
             }
         }
