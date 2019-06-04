@@ -2,6 +2,11 @@ package ua.com.topic03_syntax;
 
 /**
  * Created by Rustam on 03.06.2019
+ * Ввести значение eps и найти сумму ряда
+ *
+ * y = 1 + 1/2 + 1/4 + 1/8 + 1/16 + ...
+ *
+ * Добавлять слагаемые до тех пор, пока очередное слагаемое не станет меньше eps.
  */
 
 import java.io.BufferedReader;
