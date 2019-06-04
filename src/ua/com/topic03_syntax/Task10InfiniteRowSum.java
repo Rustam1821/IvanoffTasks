@@ -13,19 +13,13 @@ public class Task10InfiniteRowSum {
 
     public static void main(String[] args) {
         double esp = inputEPS();
-        int divider = 1;
-        double result = 0;
-        while (1/divider > esp){
-            result += (double) 1/divider;
-            divider*=2;
-        }
+        double result = calculateInfiniteRowSum(esp);
         System.out.println("The sum of an infinite row is: " + result);
-
     }
 
-    static double inputEPS() {
+    private static double inputEPS() {
         double eps = 0;
-        System.out.print("Enter value of eps:");
+        System.out.print("Enter value of eps: ");
         BufferedReader bReader = new BufferedReader(new InputStreamReader(System.in));
         try {
             eps = Double.parseDouble(bReader.readLine());
@@ -35,4 +29,15 @@ public class Task10InfiniteRowSum {
         }
         return eps;
     }
+
+    static double calculateInfiniteRowSum(double esp) {
+        int divider = 1;
+        double result = 0;
+        while (1.0 / divider > esp) {
+            result += 1.0 / divider;
+            divider *= 2;
+        }
+        return result;
+    }
+
 }
