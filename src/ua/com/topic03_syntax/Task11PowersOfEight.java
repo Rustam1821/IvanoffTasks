@@ -64,6 +64,7 @@ public class Task11PowersOfEight {
         for (int i = 0; i < exp; i++) {
             result *= 8;
         }
+        Math.signum(5);
         return result;
     }
 }

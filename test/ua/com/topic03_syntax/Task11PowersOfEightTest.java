@@ -1,10 +1,10 @@
 package ua.com.topic03_syntax;
 
 import org.junit.jupiter.api.Test;
-import static ua.com.topic03_syntax.Task11PowersOfEight.*;
-import org.testng.AssertJUnit;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static ua.com.topic03_syntax.Task11PowersOfEight.exponentiationUsingArithmetic;
+import static ua.com.topic03_syntax.Task11PowersOfEight.exponentiationUsingBitwise;
 
 /**
  * Created by Rustam on 05.06.2019
