@@ -25,7 +25,7 @@ public class Task01GeometricMeanOfTwoNumbers {
      *
      * @return the int [ ]
      */
-    static int[] input() {
+    private static int[] input() {
         Scanner scanner = new Scanner(System.in);
         int[] twoNumbers = {scanner.nextInt(), scanner.nextInt()};
         scanner.close();

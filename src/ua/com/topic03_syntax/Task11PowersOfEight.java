@@ -45,7 +45,7 @@ public class Task11PowersOfEight {
      * @return the int
      */
 
-    static int exponentiationUsingBitwise(final int exp) {
+    protected static int exponentiationUsingBitwise(final int exp) {
         int result = 1;
         for (int i = 0; i < exp; i++) {
             result <<= 3;
@@ -59,7 +59,7 @@ public class Task11PowersOfEight {
      * @param exp the exp
      * @return the int
      */
-    static int exponentiationUsingArithmetic(final int exp) {
+    protected static int exponentiationUsingArithmetic(final int exp) {
         int result = 1;
         for (int i = 0; i < exp; i++) {
             result *= 8;

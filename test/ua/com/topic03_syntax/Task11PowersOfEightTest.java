@@ -11,7 +11,7 @@ import static ua.com.topic03_syntax.Task11PowersOfEight.exponentiationUsingBitwi
 class Task11PowersOfEightTest {
 
     @Test
-    void bitwiseShouldRaiseEightToThePower() {
+    public void bitwiseShouldRaiseEightToThePower() {
         assertEquals(exponentiationUsingBitwise(4), 4096);
         assertEquals(exponentiationUsingBitwise(10), 1073741824);
         assertEquals(exponentiationUsingBitwise(0), 1);

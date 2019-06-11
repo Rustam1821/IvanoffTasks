@@ -35,7 +35,7 @@ public class Task10InfiniteRowSum {
         return eps;
     }
 
-    static double calculateInfiniteRowSum(double esp) {
+    protected static double calculateInfiniteRowSum(double esp) {
         int divider = 1;
         double result = 0;
         while (1.0 / divider > esp) {

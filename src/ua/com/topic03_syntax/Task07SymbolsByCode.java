@@ -23,7 +23,7 @@ public class Task07SymbolsByCode {
      *
      * @return the string
      */
-    static String printRow() {
+    protected static String printRow() {
         StringBuilder stringBuilder = new StringBuilder();
         for (char i = START; i <= END; i++) {
             stringBuilder.append(i);

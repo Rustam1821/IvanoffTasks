@@ -16,7 +16,7 @@ public class Task06UsingSwitch {
         return inputtedNumber;
     }
 
-    static int switcher(int number) {
+    protected static int switcher(int number) {
         int result;
         switch (number) {
             case 0:
@@ -36,6 +36,7 @@ public class Task06UsingSwitch {
                 break;
             default:
                 result = 0;
+                break;
         }
         return result;
     }

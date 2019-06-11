@@ -39,7 +39,7 @@ public class Task03UsingIf {
      * @param x the x
      * @return the int
      */
-    static int computeY(final int x) {
+    protected static int computeY(final int x) {
         int y = 0;
         if (x < 0) {
             y = -1;

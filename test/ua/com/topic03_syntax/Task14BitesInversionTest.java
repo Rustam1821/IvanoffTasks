@@ -16,7 +16,7 @@ class Task14BitesInversionTest {
     }
 
     @Test
-    void shouldConvertToDecimal() {
+    public void shouldConvertToDecimal() {
         assertEquals(convertToDecimal("000001"), 1);
         assertEquals(convertToDecimal("1010100011"), 675);
     }

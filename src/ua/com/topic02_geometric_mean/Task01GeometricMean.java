@@ -24,7 +24,7 @@ public class Task01GeometricMean {
      * @param numbers the numbers
      * @return the double
      */
-    static double calculator(final int[] numbers) {
+    protected static double calculator(final int[] numbers) {
         double result = 1;
         for (int i : numbers) {
             result *= i;

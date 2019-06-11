@@ -25,16 +25,16 @@ public class Task02Rounding {
      * Round it double.
      * Accepts e real number and returns rounded one.
      *
-     * @param input the input
+     * @param number the input
      * @return the double
      */
-    static double roundIt(double input) {
-        if (isRoundUp(input)) {
-            input = (int) input + 1;
+    static double roundIt(double number) {
+        if (isRoundUp(number)) {
+            number = (int) number + 1;
         } else {
-            input = (int) input;
+            number = (int) number;
         }
-        return input;
+        return number;
     }
 
     private static boolean isRoundUp(final double input) {

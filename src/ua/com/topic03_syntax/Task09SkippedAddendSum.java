@@ -36,7 +36,7 @@ public class Task09SkippedAddendSum {
      *
      * @return the int
      */
-    static int inputting() {
+    private static int inputting() {
         int number = 0;
         BufferedReader bReader = new BufferedReader(new InputStreamReader(System.in));
         try {
@@ -54,7 +54,7 @@ public class Task09SkippedAddendSum {
      * @param n the n
      * @return the int
      */
-    static int calculateSumVer1(final int k, final int n) {
+    protected static int calculateSumVer1(final int k, final int n) {
         int sum = 0;
         for (int i = 1; i < n; i++) {
             if (i != k) {
@@ -71,7 +71,7 @@ public class Task09SkippedAddendSum {
      * @param n the n
      * @return the int
      */
-    static int calculateSumVer2(final int k, final int n) {
+    protected static int calculateSumVer2(final int k, final int n) {
         int sum = 0;
         for (int i = 1; i < n; i++) {
             if (i == k) {

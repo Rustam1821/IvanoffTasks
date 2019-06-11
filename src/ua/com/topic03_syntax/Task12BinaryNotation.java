@@ -27,7 +27,7 @@ public class Task12BinaryNotation {
      * @param b the b
      * @return the string
      */
-    static String convertToBinaryForm(int b) {
+    protected static String convertToBinaryForm(int b) {
         String result ="";
         boolean flag = true;
         for (int i = 31; i >= 0; i--) {

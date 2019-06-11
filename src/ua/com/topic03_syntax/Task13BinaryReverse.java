@@ -27,7 +27,7 @@ public class Task13BinaryReverse {
      *
      * @return the int
      */
-    static int inputting() {
+    private static int inputting() {
         int number = 0;
         BufferedReader bReader = new BufferedReader(new InputStreamReader(System.in));
         try {

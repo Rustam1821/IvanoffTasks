@@ -10,7 +10,7 @@ import static ua.com.topic03_syntax.Task13BinaryReverse.reverse;
 class Task13BinaryReverseTest {
 
     @Test
-    void shouldReverse() {
+    public void shouldReverse() {
         assertEquals(reverse("1100010101"), "1010100011");
         assertEquals(reverse(Integer.toBinaryString(32)), "000001");
     }

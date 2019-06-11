@@ -27,7 +27,7 @@ public class Task05Quadratic {
      * @param c the c
      * @return the double [ ]
      */
-    static double[] solution(final double a, final double b, final double c) {
+    protected static double[] solution(final double a, final double b, final double c) {
         double determinant = Math.pow(b, 2) - 4 * a * c;
         double[] roots;
         if (determinant < 0) {
@@ -49,7 +49,7 @@ public class Task05Quadratic {
      * @param roots the roots
      * @return the string
      */
-    static String printResult(final double[] roots) {
+    protected static String printResult(final double[] roots) {
         String result;
         switch (roots.length) {
             case 0:
@@ -60,6 +60,7 @@ public class Task05Quadratic {
                 break;
             default:
                 result = Double.toString(roots[0]) + " " + Double.toString(roots[1]);
+                break;
         }
         return result;
     }
