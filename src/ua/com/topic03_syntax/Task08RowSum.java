@@ -34,12 +34,12 @@ public class Task08RowSum {
     /**
      * Sum row calculation 1 variant double.
      *
-     * @param n the n
+     * @param n1 the n1
      * @return the double
      */
-    protected static double sumRowCalculation1Variant(int n) {
+    protected static double sumRowCalculation1Variant(int n1) {
         double sum = 0;
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= n1; i++) {
             sum += (double) 1 / i;
         }
         return sum;
@@ -48,12 +48,12 @@ public class Task08RowSum {
     /**
      * Sum row calculation 2 variant double.
      *
-     * @param n the n
+     * @param n2 the n2
      * @return the double
      */
-    protected static double sumRowCalculation2Variant(int n) {
+    protected static double sumRowCalculation2Variant(int n2) {
         double sum = 0;
-        for (int i = n; i != 0; i--) {
+        for (int i = n2; i != 0; i--) {
             sum += (double) 1 / i;
         }
         return sum;
@@ -62,14 +62,14 @@ public class Task08RowSum {
     /**
      * Sum row calculation 3 variant double.
      *
-     * @param n the n
+     * @param n3 the n3
      * @return the double
      */
-    protected static double sumRowCalculation3Variant(int n) {
+    protected static double sumRowCalculation3Variant(int n3) {
         double sum = 0;
-        while (n > 0) {
-            sum += (double) 1 / n;
-            n--;
+        while (n3 > 0) {
+            sum += (double) 1 / n3;
+            n3--;
         }
         return sum;
     }

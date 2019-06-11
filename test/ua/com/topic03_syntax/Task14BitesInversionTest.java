@@ -10,13 +10,13 @@ import static org.junit.jupiter.api.Assertions.*;
 class Task14BitesInversionTest {
 
     @Test
-    void shouldInvertBites() {
+    protected void shouldInvertBites() {
         assertEquals(invertBites(32), "000001");
         assertEquals(invertBites(789), "1010100011");
     }
 
     @Test
-    public void shouldConvertToDecimal() {
+    protected void shouldConvertToDecimal() {
         assertEquals(convertToDecimal("000001"), 1);
         assertEquals(convertToDecimal("1010100011"), 675);
     }
