@@ -38,6 +38,6 @@ public class Task02Rounding {
     }
 
     private static boolean isRoundUp(final double input) {
-        return input % 1 >= 0.5;
+        return (input % 1 >= 0.5);
     }
 }
