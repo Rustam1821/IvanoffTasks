@@ -5,7 +5,7 @@ import org.testng.Assert;
 
 public class Task04UsingTernaryTest {
     @Test
-    public void compute_Y_Test() {
+    public void computeYTest() {
         Assert.assertEquals(Task04UsingTernary.computeY(62), 1);
         Assert.assertEquals(Task04UsingTernary.computeY(-8), -1);
         Assert.assertEquals(Task04UsingTernary.computeY(0), 0);

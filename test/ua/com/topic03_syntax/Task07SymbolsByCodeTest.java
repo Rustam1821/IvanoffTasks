@@ -1,13 +1,11 @@
 package ua.com.topic03_syntax;
 
 import org.testng.annotations.Test;
-import org.testng.Assert;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Task07SymbolsByCodeTest {
     @Test
-    public static void should_Print_Chars() {
-        Assert.assertEquals(Task07SymbolsByCode.printRow(),
-                "абвгдежзийклмнопрстуфхцчшщъыьэюяѐёђѓєѕіїјљњћќѝўџѠ");
-
+    public static void shouldPrintChars() {
+        assertEquals(Task07SymbolsByCode.printRow(),"абвгдежзийклмнопрстуфхцчшщъыьэюяѐёђѓєѕіїјљњћќѝўџѠ");
     }
 }
