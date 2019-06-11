@@ -5,7 +5,7 @@ import org.testng.Assert;
 
 public class Task07SymbolsByCodeTest {
     @Test
-    public static void SHOULD_PRINT_CHARS() {
+    public static void should_Print_Chars() {
         Assert.assertEquals(Task07SymbolsByCode.printRow(),
                 "абвгдежзийклмнопрстуфхцчшщъыьэюяѐёђѓєѕіїјљњћќѝўџѠ");
 

@@ -7,7 +7,7 @@ import static ua.com.topic03_syntax.Task06UsingSwitch.switcher;
 
 public class Task06UsingSwitchTest {
     @Test
-    public static void ShouldReturnY(){
+    public static void should_Return_Y(){
         Assert.assertEquals(switcher(2), 5);
         Assert.assertEquals(switcher(0), 2);
         Assert.assertEquals(switcher(4), 1);

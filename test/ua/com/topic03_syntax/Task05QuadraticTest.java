@@ -7,7 +7,7 @@ import static ua.com.topic03_syntax.Task05Quadratic.*;
 
 @Test
 public class Task05QuadraticTest {
-    public void Should_Find_Roots() {
+    public void should_Find_Roots() {
         Assert.assertEquals(printResult(solution(5, 0, 0))
                 , "-0.0");
         Assert.assertEquals(printResult(solution(4, 0, -3))
