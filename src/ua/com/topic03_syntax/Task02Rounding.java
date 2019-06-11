@@ -28,13 +28,14 @@ public class Task02Rounding {
      * @param number the input
      * @return the double
      */
-    protected static double roundIt(double number) {
+    protected static double roundIt(final double number) {
+        double roundedNumber = number;
         if (isRoundUp(number)) {
-            number = (int) number + 1;
+            roundedNumber = (int) number + 1;
         } else {
-            number = (int) number;
+            roundedNumber = (int) number;
         }
-        return number;
+        return roundedNumber;
     }
 
     private static boolean isRoundUp(final double input) {
