@@ -28,7 +28,7 @@ public class Task02Rounding {
      * @param number the input
      * @return the double
      */
-    static double roundIt(double number) {
+    protected static double roundIt(double number) {
         if (isRoundUp(number)) {
             number = (int) number + 1;
         } else {
