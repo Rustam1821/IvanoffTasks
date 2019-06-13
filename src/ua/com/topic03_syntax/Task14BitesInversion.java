@@ -6,6 +6,9 @@ import java.io.InputStreamReader;
 
 /**
  * Created by Rustam on 11.06.2019
+ * Инверсия битов числа
+ * Ввести целое число, разместить его биты в противоположном порядке,
+ * вывести в десятичном и в двоичном виде.
  */
 public class Task14BitesInversion {
 
