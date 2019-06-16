@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class Task17FactorialCalculationTest {
 
     @Test
-    void calculateFactorialeTest() {
+    public void calculateFactorialeTest() {
         assertEquals(calculateFactorial(5), 120L);
         assertEquals(calculateFactorial(15), 1307674368000L);
     }
