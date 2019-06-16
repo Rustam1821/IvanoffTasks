@@ -13,6 +13,11 @@ import java.io.InputStreamReader;
  * диапазона и вывод всех простых чисел в этом диапазоне.
  */
 public class Task19PrimeNumbers {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         int[] numbers = initiateNumbers();
             for (int i = 0; i < numbers.length; i++) {
@@ -47,6 +52,12 @@ public class Task19PrimeNumbers {
         return numbers;
     }
 
+    /**
+     * Is prime boolean.
+     *
+     * @param n the n
+     * @return the boolean
+     */
     protected static boolean isPrime(int n) {
         boolean primeNumber = true;
         if (n < 2 || (n > 2 && n % 2 == 0)) {

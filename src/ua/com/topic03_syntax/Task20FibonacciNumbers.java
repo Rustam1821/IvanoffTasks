@@ -6,21 +6,17 @@ import java.io.InputStreamReader;
 
 /**
  * Created by Rustam on 16.06.2019
- * Реализовать программу вычисления факториала с помощью
- * рекурсивной функции. Осуществить тестирование функции.
  */
-public class Task18RecursiveFactorialCalculation {
+public class Task20FibonacciNumbers {
     /**
      * The entry point of application.
      *
      * @param args the input arguments
      */
     public static void main(String[] args) {
-        int input = inputting();
-        long factorial = recursiveFact(input);
-        printResult(factorial);
+        int number = inputting();
+        System.out.println(buildFibonacciLoop(number));
     }
-
 
     private static int inputting() {
         System.out.print("Enter a number: ");
@@ -35,21 +31,26 @@ public class Task18RecursiveFactorialCalculation {
     }
 
     /**
-     * Recursive fact long.
+     * Build fibonacci.
      *
      * @param n the n
-     * @return the long
      */
-    protected static long recursiveFact(int n) {
-        if (n == 1) {
-            return 1;
-        } else {
-            return recursiveFact(n - 1) * n;
+    protected static String buildFibonacciLoop(int n) {
+        StringBuilder strBuilder = new StringBuilder();
+
+        strBuilder.append(1);
+        long first = 0;
+        long second = 1;
+        while (true) {
+            long result = first + second;
+            strBuilder.append(" " + result);
+            first = second;
+            second = result;
+            if (result >= n) {
+                break;
+            }
         }
-
+        return strBuilder.toString();
     }
 
-    private static void printResult(long n) {
-        System.out.println("The result is: " + n);
-    }
 }
