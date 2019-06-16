@@ -1,6 +1,7 @@
 package ua.com.topic03_syntax;
 
 import org.junit.jupiter.api.Test;
+
 import static ua.com.topic03_syntax.Task14BitesInversion.*;
 import static org.junit.jupiter.api.Assertions.*;
 

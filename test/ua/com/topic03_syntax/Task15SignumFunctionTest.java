@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class Task15SignumFunctionTest {
 
     @Test
-    public void calculateSignumTest() {
+    protected void calculateSignumTest() {
         assertEquals(calculateSignum(-153), -1);
         assertEquals(calculateSignum(12), 1);
         assertEquals(calculateSignum(0), 0);
